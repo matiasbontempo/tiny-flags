@@ -1,0 +1,39 @@
+{
+  "name": "tiny-flags",
+  "version": "1.0.0",
+  "description": "What is this? Feature flags for ants? Well yes! But also Tiny Flags is simple way to add client-side feature flags that can be updated at runtime.",
+  "author": "Matias Bontempo <matias.bontempo@gmail.com> (https://matiasbontempo.com)",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "npm run lint:eslint & npm run lint:ts",
+    "lint:eslint": "eslint --ext .ts,.tsx ./src",
+    "lint:ts": "tsc --noemit",
+    "build": "yarn cleanup & rollup -c --bundleConfigAsCjs",
+    "cleanup": "rimraf ./dist"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.1.0",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/chrome": "^0.0.198",
+    "@types/react": "^18.0.21",
+    "eslint": "^8.26.0",
+    "eslint-config-matiasbontempo": "github:matiasbontempo/eslint-config-matiasbontempo",
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.2.5",
+    "rollup-plugin-copy": "^3.4.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4"
+  }
+}
