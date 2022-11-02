@@ -1,5 +1,5 @@
 {
-  "name": "tiny-flags",
+  "name": "@matiasbontempo/tiny-flags",
   "version": "1.0.0",
   "description": "What is this? Feature flags for ants? Well yes! But also Tiny Flags is simple way to add client-side feature flags that can be updated at runtime.",
   "author": "Matias Bontempo <matias.bontempo@gmail.com> (https://matiasbontempo.com)",
@@ -35,5 +35,16 @@
     "rollup-plugin-copy": "^3.4.0",
     "tslib": "^2.4.1",
     "typescript": "^4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbontempo/tiny-flags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matiasbontempo/tiny-flags/issues"
+  },
+  "homepage": "https://github.com/matiasbontempo/tiny-flags#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -13,7 +13,7 @@ This project also provides full TypeScript support when using the `useFlags` hoo
 ## 📦 Install
 
 ```sh
-npm i tiny-flags
+npm i @matiasbontempo/tiny-flags
 ```
 
 ## 🧑‍💻 Usage
