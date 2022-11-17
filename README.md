@@ -12,7 +12,7 @@ This project also provides full TypeScript support when using the `useFlags` hoo
 
 ## 🪄 Demo
 
-Want to see it in action? Check out the [demo](See it in action [here](https://wm3il4.csb.app/).
+Want to see it in action? Check out the [demo](https://wm3il4.csb.app/).
 
 Also, you can check this [CodeSandbox](https://codesandbox.io/s/tiny-flags-demo-wm3il4) to play with the code.
 
