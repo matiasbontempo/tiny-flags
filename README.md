@@ -10,7 +10,13 @@ Tiny Flags is a great option when you don't want to pay for a third-party provid
 
 This project also provides full TypeScript support when using the `useFlags` hook.
 
-## 📦 Install
+## 🪄 Demo
+
+Want to see it in action? Check out the [demo](See it in action [here](https://wm3il4.csb.app/).
+
+Also, you can check this [CodeSandbox](https://codesandbox.io/s/tiny-flags-demo-wm3il4) to play with the code.
+
+## 📦 Installation
 
 ```sh
 npm i @matiasbontempo/tiny-flags
