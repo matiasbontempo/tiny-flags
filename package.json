@@ -46,5 +46,27 @@
   "homepage": "https://github.com/matiasbontempo/tiny-flags#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "feature",
+    "flags",
+    "feature flag",
+    "feature flags",
+    "feature toggle",
+    "feature toggles",
+    "feature flagging",
+    "feature toggling",
+    "feature management",
+    "toggles",
+    "toggle",
+    "react",
+    "react hooks",
+    "react hook",
+    "react components",
+    "react component",
+    "react library",
+    "chrome extension",
+    "web extension",
+    "extension companion"
+  ]
 }
