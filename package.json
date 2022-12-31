@@ -1,5 +1,5 @@
 {
-  "name": "@matiasbontempo/tiny-flags",
+  "name": "tiny-flags",
   "version": "1.2.0",
   "description": "What is this? Feature flags for ants? Well yes! But also Tiny Flags is simple way to add client-side feature flags that can be updated at runtime.",
   "author": "Matias Bontempo <matias.bontempo@gmail.com> (https://matiasbontempo.com)",

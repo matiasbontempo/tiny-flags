@@ -19,7 +19,7 @@ Also, you can check this [CodeSandbox](https://codesandbox.io/s/tiny-flags-demo-
 ## 📦 Installation
 
 ```sh
-npm i @matiasbontempo/tiny-flags
+npm i tiny-flags
 ```
 
 ## 🧑‍💻 Usage
