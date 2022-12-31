@@ -24,6 +24,8 @@ npm i @matiasbontempo/tiny-flags
 
 ## 🧑‍💻 Usage
 
+### Setup
+
 First, you'll need a configuration:
 
 ```js
@@ -61,7 +63,9 @@ ReactDOM.render(
 )
 ```
 
-Finally, import `useFlags` in your components to check your flag's status.
+### Hook
+
+Import `useFlags` in your components to check your flag's status.
 
 ```js
 // component.ts
@@ -82,7 +86,32 @@ const App = () => {
 export default App;
 ```
 
-> Make sure to import `FlagsProvider` and `useFlags` from the `tiny-flags` configuration file and not the `tiny-flags` package. 
+### Component
+
+You can also use the `FlagsWrapper` component to wrap your components and check the flag's status.
+
+The `FlagsWrapper` component receives a `condition` prop that can be a string, an array of strings or a function.
+- If the condition is a string, it will check if the flag is enabled.
+- If the condition is an array of strings, it will check if all the flags are enabled.
+- If the condition is a function, it will check if the function returns `true`. 
+
+```js
+// component.ts
+
+import { FlagsWrapper } from './tiny-flags';
+
+const Component = () => {
+    return (
+        <FlagsWrapper condition="newFeature">
+            <div>Ta-da! 🎉</div>
+        </FlagsWrapper>
+  );
+};
+
+export default Component;
+```
+
+> Make sure to import `FlagsProvider`, `useFlags` and `FlagsWrapper` from the `tiny-flags` configuration file and not the `tiny-flags` package. 
 
 ## 🧩 Extension
 

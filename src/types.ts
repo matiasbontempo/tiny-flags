@@ -18,3 +18,8 @@ export type ProviderProps<T extends string> = {
   flags: Flags<T>;
   children: ReactNode;
 };
+
+export type WrapperProps<T extends string> = {
+  condition: T | T[] | ((flags: FlagsDictionary<T>) => boolean);
+  children: ReactNode;
+};
